@@ -109,6 +109,7 @@
                 <div class="header-nav">
                     <div class="header-logo">
                         <a class="pull-left" href="{{ SITEURL }}/"><img class="mr20" src="{{ SITEURL }}{{NEST_HEADER_LOGO or "/logo.svg" }}" alt="logo">{{ SITENAME }}</a>
+                        <!-- <a class="pull-left" href="{{ SITEURL }}/"><img class="mr20" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/home-bg.jpg}" alt="logo">{{ SITENAME }}</a> -->
                     </div>
                     <div class="nav pull-right">
                         {% for title, link in MENUITEMS %}
@@ -140,7 +141,7 @@
         <!-- Content -->
         {% block content %}
         {% endblock %}
-        <!-- /Content --> 
+        <!-- /Content -->
 
         <!-- Footer -->
         <div class="footer gradient-2">
@@ -179,7 +180,7 @@
                             {% endfor %}
                         </ul>
                         {% endif %}
-                    </div> 
+                    </div>
                     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                         <p class="pull-right text-right">
                             <small><em>Proudly powered by <a href="http://docs.getpelican.com/" target="_blank">pelican</a></em></small><br/>
