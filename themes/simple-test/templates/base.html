@@ -29,6 +29,10 @@
         <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
         {% endif %}
         {% endblock head %}
+
+        <!-- Custom CSS -->
+        <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/test.css" rel="stylesheet">
+
 </head>
 
 <body id="index" class="home">
