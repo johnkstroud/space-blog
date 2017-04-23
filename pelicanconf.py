@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Marcus Tullius Cicero'
-SITENAME = u'space-blog'
+SITENAME = u'All About That Space'
 SITEURL = u'http://allaboutthat.space'
 
 PATH = 'content'
@@ -68,8 +68,8 @@ NEST_FOOTER_HTML = ''
 # index.html
 NEST_INDEX_HEAD_TITLE = u'allaboutthat.space'
 NEST_INDEX_HEADER_TITLE = u'No Hubble?'
-NEST_INDEX_HEADER_SUBTITLE = u'Boldly going where no man has gone before....mostly...'
-NEST_INDEX_CONTENT_TITLE = u'Last Posts'
+NEST_INDEX_HEADER_SUBTITLE = u'In search of heavenly bodies'
+NEST_INDEX_CONTENT_TITLE = u'Latest Posts'
 # archives.html
 NEST_ARCHIVES_HEAD_TITLE = u'Archives'
 NEST_ARCHIVES_HEAD_DESCRIPTION = u'Posts Archives'
