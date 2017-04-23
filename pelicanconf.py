@@ -43,6 +43,7 @@ RELATIVE_URLS = True
 # Enable/Disable Disqus Comments
 DISQUS_SITENAME = "caelestia-space"
 
+#################################################################################
 # NEST Template
 THEME = 'nest'
 SITESUBTITLE = u'My Awesome Blog'
@@ -51,8 +52,9 @@ NEST_CSS_MINIFY = True
 # Add items to top menu before pages
 MENUITEMS = [('Homepage', '/'),('Categories','/categories.html')]
 # Add header background image from content/images : 'background.jpg'
-NEST_HEADER_IMAGES = ''
-NEST_HEADER_LOGO = '/image/logo.png'
+NEST_HEADER_IMAGES = 'theme/images/background.jpg'
+NEST_HEADER_LOGO = 'theme/images/logo.png'
+
 # Footer
 NEST_SITEMAP_COLUMN_TITLE = u'Sitemap'
 NEST_SITEMAP_MENU = [('Archives', '/archives.html'),('Tags','/tags.html'), ('Authors','/authors.html')]
@@ -60,13 +62,13 @@ NEST_SITEMAP_ATOM_LINK = u'Atom Feed'
 NEST_SITEMAP_RSS_LINK = u'RSS Feed'
 NEST_SOCIAL_COLUMN_TITLE = u'Social'
 NEST_LINKS_COLUMN_TITLE = u'Links'
-NEST_COPYRIGHT = u'&copy; blogname 2015'
+NEST_COPYRIGHT = u'&copy; AATS 2015'
 # Footer optional
 NEST_FOOTER_HTML = ''
 # index.html
-NEST_INDEX_HEAD_TITLE = u'Homepage'
-NEST_INDEX_HEADER_TITLE = u'My Awesome Blog'
-NEST_INDEX_HEADER_SUBTITLE = u'Smashing The Stack For Fun And Profit'
+NEST_INDEX_HEAD_TITLE = u'allaboutthat.space'
+NEST_INDEX_HEADER_TITLE = u'No Hubble?'
+NEST_INDEX_HEADER_SUBTITLE = u'Boldly going where no man has gone before....mostly...'
 NEST_INDEX_CONTENT_TITLE = u'Last Posts'
 # archives.html
 NEST_ARCHIVES_HEAD_TITLE = u'Archives'
@@ -75,7 +77,7 @@ NEST_ARCHIVES_HEADER_TITLE = u'Archives'
 NEST_ARCHIVES_HEADER_SUBTITLE = u'Archives for all posts'
 NEST_ARCHIVES_CONTENT_TITLE = u'Archives'
 # article.html
-NEST_ARTICLE_HEADER_BY = u'By'
+NEST_ARTICLE_HEADER_BY = u'By Me'
 NEST_ARTICLE_HEADER_MODIFIED = u'modified'
 NEST_ARTICLE_HEADER_IN = u'in category'
 # author.html
