@@ -3,17 +3,17 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Marcus Tullius Cicero'
-SITENAME = u'caelestia.space'
-SITEURL = u'http://calestia.space'
+SITENAME = u'space-blog'
+SITEURL = u'http://allaboutthat.space'
 
 PATH = 'content'
 
 TIMEZONE = 'America/Chicago'
-THEME = 'pelican-clean-blog'
+# THEME = 'pelican-clean-blog'
 DEFAULT_LANG = u'en'
 
-COLOR_SCHEME_CSS = 'tomorrow_night.css'
-CUSTOM_CSS = 'bootstrap.css'
+# COLOR_SCHEME_CSS = 'tomorrow_night.css'
+# CUSTOM_CSS = 'bootstrap.css'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -46,7 +46,7 @@ DISQUS_SITENAME = "caelestia-space"
 #################################################################################
 # NEST Template
 THEME = 'nest'
-SITESUBTITLE = u'My Awesome Blog'
+SITESUBTITLE = u'Stardate 2017'
 # Minified CSS
 NEST_CSS_MINIFY = True
 # Add items to top menu before pages

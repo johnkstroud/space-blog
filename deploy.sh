@@ -1,9 +1,9 @@
 #!/bin/bash
 echo "Running Pelican"
-pelican content -t ~/caelestia.space/themes/caelestia.space
+pelican content -t ~/space-blog/themes/space-blog
 echo "removing old files"
-rm -r /var/www/caelestia.space/*
+rm -r /var/www/space-blog/*
 echo "copying new files"
-cp -r output/* /var/www/caelestia.space/
+cp -r output/* /var/www/space-blog/
 echo "restarting nginx"
 service nginx restart
